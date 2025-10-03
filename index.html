@@ -36,11 +36,20 @@
         <li>Bonobash</li>
     </ul>
 
-    <!-- query selector -->
+    
+     
      </main>
      
     <!-- link with js -->
     <script src="js/dom.js"></script>
+    <script>
+        const someLi=document.querySelectorAll('.fruits-container li')
+        // console.log(someLi)
+        for(const li of someLi)
+            {
+                console.log(li.innerText);
+            }
+    </script>
 
 
     
