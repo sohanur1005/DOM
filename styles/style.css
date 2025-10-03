@@ -1,3 +1,15 @@
 h1{
     color:lightsalmon
 }
+#fruits-title{
+    color:black
+}
+.place-title{
+    color: green;
+}
+li{
+    color:purple;
+}
+.fruits-container li{
+    color: aqua;
+}
