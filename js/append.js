@@ -13,7 +13,7 @@ placesList.appendChild(li)
 
 // create a new section
 
-const mainContainer=document.getElementById('main-container')
+const mainContainer=document.getElementById('main-container');
 
 const section=document.createElement('section');
 const h1=document.createElement('h1');
