@@ -10,7 +10,7 @@
     <header>
         <h1>Welcome to my DOM</h1>
     </header>
-    <main>
+    <main id="main-container">
         <h1>My Awesome DOM de baba</h1>
     
     <section class="fruits-container">
@@ -23,26 +23,30 @@
     </section>
     <section id="place-container">
         <h1 class="place-title">Place I like to visit</h1>
-        <ul>
+        <ul id="places-list">
             <li class="important-places">Sundarban</li>
             <li class="important-places">Bandarban</li>
             <li class="important-places">Shalban</li>
         </ul>
 
     </section>
-    <ul>
+    <section>
+        <ul>
         <li>Jalali set</li>
         <li>Shafayet</li>
         <li>Bonobash</li>
     </ul>
+    </section>
 
     
      
      </main>
      
     <!-- link with js -->
+      <script src="js/append.js"></script>
     <script src="js/dom.js"></script>
     <script src="js/styleinJS.js"></script>
+   
     <script>
         // getElementById
         const  fruitsTitle=document.getElementById('fruits-title');
